@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cdk-function"
+version = "0.1.0"
+description = ""
+authors = ["felix.jaenke <felix.jaenke@jambit.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "2.11.1"
+awswrangler = "3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
